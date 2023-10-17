@@ -1,6 +1,5 @@
 # CookingCrafts food cooking helper
 ## _Fresh and tasty app which helps you create your own cooking masterpiece_
-## Available at: https://cookingcrafts.b2k.me/recipes
 ## based on:
 [![N|Solid](https://static.djangoproject.com/img/logos/django-logo-negative.svg)](https://www.djangoproject.com/)
 ## and
@@ -40,9 +39,6 @@ And of course Coookingcrafts itself is open source with a [public repository][gi
 Api documantation is available at https://cookingcrafts.b2k.me/api/docs/
 Contains all request and expected responses from backend
 Root API Endpoint is located at https://cookingcrafts.b2k.me/api/
-
-## Installation
-No installation is required. Server already available on: https://cookingcrafts.b2k.me/
 
 ### Local usage
 ### if you want to install copy of this server for local usage:
