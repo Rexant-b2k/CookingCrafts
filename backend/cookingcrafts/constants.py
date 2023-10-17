@@ -1,0 +1,25 @@
+from enum import IntEnum
+
+
+class User(IntEnum):
+    MAX_USERNAME = 150
+    MAX_PASSWORD = 150
+    MAX_FIRST_NAME = 150
+    MAX_LAST_NAME = 150
+    MAX_EMAIL_FIELD = 254
+    MAX_ROLE_NAME = 15
+
+
+class Recipe(IntEnum):
+    MAX_TAG_NAME = 200
+    MAX_TAG_SLUG = 200
+    MAX_INGREDIENT_NAME = 200
+    MAX_INGREDIENT_M_UNIT = 200
+    MAX_RECIPE_NAME = 200
+    MIN_INGR_AMOUNT = 1
+    MIN_COOKING_TIME = 1
+    MAX_COOKING_TIME = 32000
+
+
+class Common(IntEnum):
+    PAGE_SIZE = 3
